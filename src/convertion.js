@@ -8,7 +8,7 @@ const ten = {
     17: "dix-sept", 18: "dix-huit", 19: "dix-neufs", 20: "vingt", 30: "trente", 40: "quarante",
     50: "cinquante", 60: "soixante", 70: "soixante-dix", 80: "quatre-vingt", 90: "quatre-vingt-dix"
 }
-const unites = ["bilions", "miliards", "milions", "milles"]
+const unites = ["trillons", "milliards", "millions", "milles"]
 
 const capitalize = (word) => word && word[0].toLocaleUpperCase() + word.substr(1, word.length)
 const absolute = (num) => Math.abs(parseInt(num, 10))
