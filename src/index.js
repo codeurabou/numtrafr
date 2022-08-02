@@ -1,4 +1,5 @@
-import { capitalize, convertNumToWord, splitNum } from "./utils.js"
+const { capitalize } = require("./convertion")
+const { convertNumToWord, splitNum } = require("./utils")
 
 const formatWord = (num) => {
     if (!num) return
@@ -8,3 +9,5 @@ const formatWord = (num) => {
     const finalWord = splitAndJoinAndTrim
     return capitalize(finalWord)
 }
+
+module.exports = formatWord
